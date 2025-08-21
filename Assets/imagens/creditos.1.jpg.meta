@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 86d7eea1d1ca52240b40baf7af45626a
+guid: ada6bf796f45b914695975f1ee33efad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7175261627662145010
-    second: Creditos_0
+      213: -9006986204780586211
+    second: creditos.1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Creditos_0
+      name: creditos.1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 312
-        height: 161
+        width: 1200
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f51b472f66a39360800000000000000
-      internalID: 7175261627662145010
+      spriteID: d1b953f84c1c00380800000000000000
+      internalID: -9006986204780586211
       vertices: []
       indices: 
       edges: []
