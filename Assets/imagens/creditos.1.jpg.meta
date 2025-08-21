@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 08ca84ffb99a10943b10a613ead99491
+guid: ada6bf796f45b914695975f1ee33efad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5911133828369189249
-    second: credits_ coolacloy - on ig (1)_0
+      213: -9006986204780586211
+    second: creditos.1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: credits_ coolacloy - on ig (1)_0
+      name: creditos.1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 720
-        height: 1280
+        width: 1200
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1898dbbf5e0980250800000000000000
-      internalID: 5911133828369189249
+      spriteID: d1b953f84c1c00380800000000000000
+      internalID: -9006986204780586211
       vertices: []
       indices: 
       edges: []
