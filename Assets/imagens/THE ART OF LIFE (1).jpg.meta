@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9de81f23a391a6e43a02310dd226d704
+guid: 362131cf477b18e46a77def1712d036c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3642115413342317018
-    second: "\u0639\u0642\u0644 brain_0"
+      213: 4224840098920532613
+    second: THE ART OF LIFE (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u0639\u0642\u0644 brain_0"
+      name: THE ART OF LIFE (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 736
-        height: 1308
+        width: 551
+        height: 574
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62691cc045b947dc0800000000000000
-      internalID: -3642115413342317018
+      spriteID: 58a0cf09fa5a1aa30800000000000000
+      internalID: 4224840098920532613
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "\u0639\u0642\u0644 brain_0": -3642115413342317018
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
