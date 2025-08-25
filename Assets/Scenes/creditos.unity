@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 782372929}
   - component: {fileID: 782372928}
   - component: {fileID: 782372927}
-  - component: {fileID: 782372926}
+  - component: {fileID: 782372930}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -430,18 +430,6 @@ RectTransform:
   m_AnchoredPosition: {x: 440.1792, y: -1221.8931}
   m_SizeDelta: {x: 289.6415, y: 88.2859}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &782372926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782372924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5079496ce6ee43478780e9bc4deab8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &782372927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,7 +474,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 782372926}
+      - m_Target: {fileID: 782372930}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: TelaInicial
         m_Mode: 1
@@ -536,6 +524,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782372924}
   m_CullTransparentMesh: 1
+--- !u!114 &782372930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782372924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &1443795061
 GameObject:
   m_ObjectHideFlags: 0
