@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Escolha.unity
     guid: 8c615612aeaa2c142855b14c7233059e
   - enabled: 1
-    path: Assets/Scenes/matematica/matematica.unity
+    path: Assets/Scenes/matematica/matematicaEscolha.unity
     guid: 8ab276d45e836c4458502ccc144a3fe3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
