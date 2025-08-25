@@ -1,19 +1,22 @@
-ï»¿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-  
+    private AudioSource player; //Referência ao componente AudioSource
+    [SerializeField] private AudioClip som; //Arquivo (Clip) de áudio a ser reproduzido
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       
+        player = GetComponent<AudioSource>(); //Guarda a referência do AudioSource
     }
 
     public void Jogar()
     {
-       
-        Invoke("SelecionaPersonagens", 1f); //Chama a funÃ§Ã£o SelecionaPersonagens apÃ³s 1 segundo
+        TocarSom(); //Chama a função para tocar o som
+        Invoke("Escolha", 1f); //Chama a função SelecionaPersonagens após 1 segundo
     }
 
     public void Creditos()
@@ -26,27 +29,45 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("TelaInicial");
     }
 
-    public void Fase1()
+    public void Escolha()
     {
-        SceneManager.LoadScene("Fase1");
-    }
-
-    public void portugues()
-    {
-        SceneManager.LoadScene("portugues");
+        SceneManager.LoadScene("Escolha");
     }
 
     public void matematica()
     {
         SceneManager.LoadScene("matematica");
     }
-    public void ciencias()
+
+    public void Pergunta1()
     {
-        SceneManager.LoadScene("ciencias");
+        SceneManager.LoadScene("Pergunta1");
     }
-    public void geografia()
+    public void artefato()
     {
-        SceneManager.LoadScene("geografia");
+        SceneManager.LoadScene("artefato");
     }
+
+    public void Espada()
+    {
+        SceneManager.LoadScene("Espada");
+    }
+    public void Espada1()
+    {
+        SceneManager.LoadScene("Espada1");
+    }
+    public void Espada2()
+    {
+        SceneManager.LoadScene("Espada2");
+    }
+    public void Obrigado()
+    {
+        SceneManager.LoadScene("Obrigado");
+    }
+
+    private void TocarSom()
+    {
+        player.PlayOneShot(som);
+    }
+
 }
-       
