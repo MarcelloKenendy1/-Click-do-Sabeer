@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e31347fc64f62b448a73dc93a1ad38dd
+guid: de7e04ff87829d24b80042e9bf0bd9aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3361595579245308988
-    second: ChatGPT Image 27 de ago. de 2025, 14_32_26_0
+      213: -5168768854468649186
+    second: Quadro de Giz com Rachadura_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 27 de ago. de 2025, 14_32_26_0
+      name: Quadro de Giz com Rachadura_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c35f8491a63951d0800000000000000
-      internalID: -3361595579245308988
+      spriteID: e1f1b47bc18d448b0800000000000000
+      internalID: -5168768854468649186
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ChatGPT Image 27 de ago. de 2025, 14_32_26_0: -3361595579245308988
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
