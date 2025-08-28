@@ -75,14 +75,21 @@ public class Menu : MonoBehaviour
     public void fase0P1()
     {
         SceneManager.LoadScene("fase0P1");
+    }   
+    public void fase0P2()
+    {
+        SceneManager.LoadScene("fase0P2");
+    } public void fase0P3()
+    {
+        SceneManager.LoadScene("fase0P3");
     }
-    public void portugues   ()
+    public void portugues()
     {
         SceneManager.LoadScene("portugues");
     }
-    public void Obrigado()
+    public void Derrota()
     {
-        SceneManager.LoadScene("Obrigado");
+        SceneManager.LoadScene("Derrota");
     }
 
     private void TocarSom()
