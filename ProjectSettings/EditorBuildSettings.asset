@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/matematica/matematicaEscolha.unity
     guid: 8ab276d45e836c4458502ccc144a3fe3
   - enabled: 1
-    path: Assets/Scenes/matematica/Fase0M.unity
+    path: Assets/Scenes/matematica/fase0M.unity
     guid: f62b7b36a485dd8448112d7865003d72
   - enabled: 1
     path: Assets/Scenes/matematica/Mat.unity

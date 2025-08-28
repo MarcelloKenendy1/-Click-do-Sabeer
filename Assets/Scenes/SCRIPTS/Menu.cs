@@ -42,23 +42,6 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("matematicaEscolha");
     }
-    public void Fase0M()
-    {
-        SceneManager.LoadScene("Fase0M");
-    }        
-    public void Fase1M()
-    {
-        SceneManager.LoadScene("Mat");
-    }   
-    public void Fase2M()
-    {
-        SceneManager.LoadScene("Fase2M");
-    }    
-    public void Fase3M()
-    {
-        SceneManager.LoadScene("Fase3M");
-    }
-
     public void Pergunta1()
     {
         SceneManager.LoadScene("Pergunta1");
