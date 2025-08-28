@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 85343215}
   - component: {fileID: 85343214}
   - component: {fileID: 85343213}
+  - component: {fileID: 85343216}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -276,7 +277,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 85343214}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 85343216}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Derrota
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &85343214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,6 +328,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85343211}
   m_CullTransparentMesh: 1
+--- !u!114 &85343216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85343211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &149057543
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +489,7 @@ GameObject:
   - component: {fileID: 283667336}
   - component: {fileID: 283667335}
   - component: {fileID: 283667334}
+  - component: {fileID: 283667337}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -533,7 +560,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 283667335}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 283667337}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Derrota
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &283667335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,6 +611,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283667332}
   m_CullTransparentMesh: 1
+--- !u!114 &283667337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283667332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &338344851
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +636,7 @@ GameObject:
   - component: {fileID: 338344855}
   - component: {fileID: 338344854}
   - component: {fileID: 338344853}
+  - component: {fileID: 338344856}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -654,7 +707,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 338344854}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 338344856}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: fase0P1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &338344854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,6 +758,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338344851}
   m_CullTransparentMesh: 1
+--- !u!114 &338344856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338344851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &518983942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +1862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372, y: -662.95}
+  m_AnchoredPosition: {x: 401, y: -662.95}
   m_SizeDelta: {x: 2225.538, y: 1452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928497206
@@ -1837,6 +1915,7 @@ GameObject:
   - component: {fileID: 2130609730}
   - component: {fileID: 2130609729}
   - component: {fileID: 2130609728}
+  - component: {fileID: 2130609731}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -1907,7 +1986,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2130609729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2130609731}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Derrota
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2130609729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1946,6 +2037,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130609726}
   m_CullTransparentMesh: 1
+--- !u!114 &2130609731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130609726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

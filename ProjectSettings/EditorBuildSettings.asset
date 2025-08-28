@@ -30,10 +30,10 @@ EditorBuildSettings:
     path: Assets/Scenes/portugues/fase0P1.unity
     guid: e0637cdb88977f541a942a5bc4664f79
   - enabled: 1
-    path: Assets/Scenes/portugues/fase0P 2.unity
+    path: Assets/Scenes/portugues/fase0P2.unity
     guid: 03ea4f4be5454fe4794d3993f7feae06
   - enabled: 1
-    path: Assets/Scenes/portugues/fase0P 3.unity
+    path: Assets/Scenes/portugues/fase0P3.unity
     guid: abc978935903f6240a4ba47897297ed1
   - enabled: 1
     path: Assets/Scenes/Derrota.unity
@@ -53,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/portugues/PortuguesEscolha.unity
     guid: 3b81e8faa044d1b4e879c1d99e226b7e
+  - enabled: 1
+    path: Assets/Scenes/Vitoria.unity
+    guid: f9602f17766209543882a71f2b187a13
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8fddfea7265ca43458576180d47992ec, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f5d875e5f80065c41bfc693fbb0bd34f, type: 2}
