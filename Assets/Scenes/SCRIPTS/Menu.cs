@@ -43,22 +43,22 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Pergunta1");
     }
-    public void artefato()
+    public void PortuguesEscolha()
     {
-        SceneManager.LoadScene("artefato");
+        SceneManager.LoadScene("PortuguesEscolha");
     }
 
-    public void Espada()
+    public void fase0P()
     {
-        SceneManager.LoadScene("Espada");
+        SceneManager.LoadScene("fase0P");
     }
-    public void Espada1()
+    public void fase0P1()
     {
-        SceneManager.LoadScene("Espada1");
+        SceneManager.LoadScene("fase0P1");
     }
-    public void Espada2()
+    public void portugues   ()
     {
-        SceneManager.LoadScene("Espada2");
+        SceneManager.LoadScene("portugues");
     }
     public void Obrigado()
     {

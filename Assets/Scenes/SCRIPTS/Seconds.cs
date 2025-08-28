@@ -69,12 +69,12 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Record", score);
         }
-        SceneManager.LoadScene("Result");
+        SceneManager.LoadScene("Derrota");
     }
 
     public void TriggerGameOver()
     {
-        SceneManager.LoadScene("Result");
+        SceneManager.LoadScene("Derrota");
     }
 
 }
