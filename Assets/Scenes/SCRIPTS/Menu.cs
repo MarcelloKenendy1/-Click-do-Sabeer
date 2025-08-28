@@ -48,7 +48,7 @@ public class Menu : MonoBehaviour
     }        
     public void Fase1M()
     {
-        SceneManager.LoadScene("Fase1M");
+        SceneManager.LoadScene("Mat");
     }   
     public void Fase2M()
     {
@@ -90,6 +90,10 @@ public class Menu : MonoBehaviour
     public void Derrota()
     {
         SceneManager.LoadScene("Derrota");
+    }   
+    public void Vitoria()
+    {
+        SceneManager.LoadScene("Vitoria");
     }
 
     private void TocarSom()
