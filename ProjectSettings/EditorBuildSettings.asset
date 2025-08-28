@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Escolha.unity
     guid: 8c615612aeaa2c142855b14c7233059e
   - enabled: 1
-    path: Assets/Scenes/matematica/matematicaEscolha.unity
-    guid: 8ab276d45e836c4458502ccc144a3fe3
+    path: Assets/Scenes/portugues/PortuguesEscolha.unity
+    guid: 3b81e8faa044d1b4e879c1d99e226b7e
   - enabled: 1
     path: Assets/Scenes/portugues/fase0P.unity
     guid: 079ff16d9d736914fb7cf9f65200c2fa
@@ -36,23 +36,23 @@ EditorBuildSettings:
     path: Assets/Scenes/portugues/fase0P 3.unity
     guid: abc978935903f6240a4ba47897297ed1
   - enabled: 1
-    path: Assets/Scenes/Derrota.unity
-    guid: f65203ac15c2a6f47bdec8f6cf533afc
+    path: Assets/Scenes/matematica/matematicaEscolha.unity
+    guid: 8ab276d45e836c4458502ccc144a3fe3
   - enabled: 1
-    path: Assets/Scenes/matematica/Fase0.unity
+    path: Assets/Scenes/matematica/Fase0M.unity
     guid: f62b7b36a485dd8448112d7865003d72
   - enabled: 1
-    path: Assets/Scenes/matematica/Fase1.unity
+    path: Assets/Scenes/matematica/Fase1M.unity
     guid: 1f1aba8e5ecad784a8e604ee91893355
   - enabled: 1
-    path: Assets/Scenes/matematica/Fase2.unity
+    path: Assets/Scenes/matematica/Fase2M.unity
     guid: 8f9e01238e2af1841ae6a977f8032c2a
   - enabled: 1
-    path: Assets/Scenes/matematica/Fase3.unity
+    path: Assets/Scenes/matematica/Fase3M.unity
     guid: d362be586c675a449a145c3a976a95a6
   - enabled: 1
-    path: Assets/Scenes/portugues/PortuguesEscolha.unity
-    guid: 3b81e8faa044d1b4e879c1d99e226b7e
+    path: Assets/Scenes/Derrota.unity
+    guid: f65203ac15c2a6f47bdec8f6cf533afc
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8fddfea7265ca43458576180d47992ec, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f5d875e5f80065c41bfc693fbb0bd34f, type: 2}
