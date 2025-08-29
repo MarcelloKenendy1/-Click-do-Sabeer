@@ -39,23 +39,44 @@ EditorBuildSettings:
     path: Assets/Scenes/matematica/matematicaEscolha.unity
     guid: 8ab276d45e836c4458502ccc144a3fe3
   - enabled: 1
-    path: Assets/Scenes/matematica/fase0M.unity
-    guid: f62b7b36a485dd8448112d7865003d72
-  - enabled: 1
-    path: Assets/Scenes/matematica/Mat.unity
-    guid: 1f1aba8e5ecad784a8e604ee91893355
-  - enabled: 1
-    path: Assets/Scenes/matematica/Fase2M.unity
-    guid: 8f9e01238e2af1841ae6a977f8032c2a
-  - enabled: 1
-    path: Assets/Scenes/matematica/Fase3M.unity
-    guid: d362be586c675a449a145c3a976a95a6
-  - enabled: 1
     path: Assets/Scenes/Derrota.unity
     guid: f65203ac15c2a6f47bdec8f6cf533afc
   - enabled: 1
     path: Assets/Scenes/Vitoria.unity
     guid: f9602f17766209543882a71f2b187a13
+  - enabled: 1
+    path: Assets/Scenes/matematica/fase1M.unity
+    guid: 28ec898c86e4f82459e594e46b6cc054
+  - enabled: 1
+    path: Assets/Scenes/matematica/fase2M.unity
+    guid: fc84371fb982e0d41b765646bf60f6fe
+  - enabled: 1
+    path: Assets/Scenes/matematica/fase3M.unity
+    guid: b4b75815caf7a7a44a9d2707ad0ac956
+  - enabled: 1
+    path: Assets/Scenes/matematica/fase4M.unity
+    guid: 14b82f59bc5ac0143a0381c1c7e27b5a
+  - enabled: 1
+    path: Assets/Scenes/matematica/fase5M.unity
+    guid: 24612db4d5afae440bedfb19683428e7
+  - enabled: 1
+    path: Assets/Scenes/geografia/GeografiaInicio.unity
+    guid: 633bbdf0bc627b249847724196280b7d
+  - enabled: 1
+    path: Assets/Scenes/geografia/fase1G.unity
+    guid: e2afae589d3896445915fb878dd5ef4f
+  - enabled: 1
+    path: Assets/Scenes/geografia/fase2G.unity
+    guid: 454bc7800816d8943a386ab6299f3ae9
+  - enabled: 1
+    path: Assets/Scenes/geografia/fase3G.unity
+    guid: f8ce02d769eeca448a36bb4eda5919ef
+  - enabled: 1
+    path: Assets/Scenes/geografia/fase4G.unity
+    guid: 05897237b6644b54285fa00f21b765c2
+  - enabled: 1
+    path: Assets/Scenes/geografia/fase5G.unity
+    guid: eb6d182cdc740034583e509b26003f33
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8fddfea7265ca43458576180d47992ec, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f5d875e5f80065c41bfc693fbb0bd34f, type: 2}

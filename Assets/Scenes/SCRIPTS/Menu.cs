@@ -38,6 +38,30 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("matematica");
     } 
+    public void Geografia()
+    {
+        SceneManager.LoadScene("GeografiaInicio");
+    } 
+    public void fase1G()
+    {
+        SceneManager.LoadScene("fase1G");
+    } 
+    public void fase2G()
+    {
+        SceneManager.LoadScene("fase2G");
+    }
+    public void fase3G()
+    {
+        SceneManager.LoadScene("fase3G");
+    } 
+    public void fase4G()
+    {
+        SceneManager.LoadScene("fase4G");
+    }public void fase5G()
+    {
+        SceneManager.LoadScene("fase5G");
+    }
+    
     public void matematicaEscolha()
     {
         SceneManager.LoadScene("matematicaEscolha");
@@ -49,6 +73,26 @@ public class Menu : MonoBehaviour
     public void PortuguesEscolha()
     {
         SceneManager.LoadScene("PortuguesEscolha");
+    }
+    public void fase1M()
+    {
+        SceneManager.LoadScene("fase1M");
+    }
+    public void fase2M()
+    {
+        SceneManager.LoadScene("fase2M");
+    }
+    public void fase3M()
+    {
+        SceneManager.LoadScene("fase3M");
+    }
+    public void fase4M()
+    {
+        SceneManager.LoadScene("fase4M");
+    }
+     public void fase5M()
+    {
+        SceneManager.LoadScene("fase5M");
     }
 
     public void fase0P()
