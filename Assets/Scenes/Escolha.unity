@@ -926,7 +926,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 625909602}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: matematicaEscolha
+        m_MethodName: introducaoM
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1303,7 +1303,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1402147614}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Geografia
+        m_MethodName: introducaoG
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1607,7 +1607,6 @@ GameObject:
   - component: {fileID: 1562219399}
   - component: {fileID: 1562219398}
   - component: {fileID: 1562219401}
-  - component: {fileID: 1562219402}
   m_Layer: 5
   m_Name: portugues
   m_TagString: Untagged
@@ -1681,7 +1680,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1562219401}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: PortuguesEscolha
+        m_MethodName: introducaoP
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1730,19 +1729,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1562219396}
   m_CullTransparentMesh: 1
 --- !u!114 &1562219401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562219396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  som: {fileID: 0}
---- !u!114 &1562219402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

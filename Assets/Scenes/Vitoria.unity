@@ -218,7 +218,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 33907791}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: PortuguesEscolha
+        m_MethodName: introducaoP
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1165,7 +1165,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1075244051}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: matematicaEscolha
+        m_MethodName: introducaoM
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1762,7 +1762,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1963582172}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Geografia
+        m_MethodName: introducaoG
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -61,7 +61,20 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("fase5G");
     }
-    
+    public void introducaoP()
+    {
+        SceneManager.LoadScene("introducaoP");
+    } 
+    public void introducaoM()
+    {
+        SceneManager.LoadScene("introducaoM");
+    }
+    public void introducaoG()
+    {
+        SceneManager.LoadScene("introducaoG");
+    }
+
+
     public void matematicaEscolha()
     {
         SceneManager.LoadScene("matematicaEscolha");
