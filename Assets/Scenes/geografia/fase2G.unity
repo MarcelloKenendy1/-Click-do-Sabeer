@@ -718,7 +718,7 @@ MonoBehaviour:
   record: 0
   scoreText: {fileID: 0}
   timerText: {fileID: 1778867631}
-  gameDuration: 30
+  gameDuration: 5
 --- !u!4 &686739173
 Transform:
   m_ObjectHideFlags: 0
