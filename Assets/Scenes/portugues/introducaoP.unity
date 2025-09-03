@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -484,10 +484,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 722303369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.63033, y: 638.91785}
-  m_SizeDelta: {x: 1429.2367, y: 1500.1646}
+  m_AnchorMin: {x: 0, y: 0.43980154}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 16.045898, y: 6.5545044}
+  m_SizeDelta: {x: 32.151917, y: 27.437988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1094601378
 MonoBehaviour:
@@ -562,10 +562,10 @@ RectTransform:
   - {fileID: 1886612107}
   m_Father: {fileID: 722303369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.6601, y: -1332.5}
-  m_SizeDelta: {x: 372.8138, y: 112.98}
+  m_AnchorMin: {x: 0.2875, y: 0.029000001}
+  m_AnchorMax: {x: 0.74625003, y: 0.080000006}
+  m_AnchoredPosition: {x: 2.5460052, y: 4}
+  m_SizeDelta: {x: 5.8138123, y: 24.97998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1310963314
 MonoBehaviour:
@@ -835,10 +835,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 722303369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 422, y: -838.49}
-  m_SizeDelta: {x: 2261.7502, y: 1454.6488}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.42631045}
+  m_AnchoredPosition: {x: 242.32, y: -46.539978}
+  m_SizeDelta: {x: 484.64722, y: 126.7511}
   m_Pivot: {x: 0.49999997, y: 0.49999994}
 --- !u!114 &1429322523
 MonoBehaviour:
@@ -921,7 +921,7 @@ MonoBehaviour:
     Ib\xE9rica e, com as grandes navega\xE7\xF5es, espalhou-se por diversos continentes.
     Hoje, \xE9 falada por mais de 260 milh\xF5es de pessoas em pa\xEDses como Brasil,
     Portugal, Angola, Mo\xE7ambique, Cabo Verde, Guin\xE9-Bissau, S\xE3o Tom\xE9
-    e Pr\xEDncipe e Timor-Leste, al\xE9m de comunidades espalhadas pelo mundo.\n\nAl\xE9m
+    e Pr\xEDncipe e Timor-Leste, al\xE9m de comunidades espalhadas pelo mundo.\nAl\xE9m
     de ser um meio de comunica\xE7\xE3o, o portugu\xEAs carrega a hist\xF3ria, os
     costumes e a identidade dos seus falantes. Ele \xE9 uma l\xEDngua rica em express\xF5es,
     varia\xE7\xF5es e sotaques, o que reflete a diversidade cultural de cada regi\xE3o."
@@ -933,8 +933,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -951,8 +951,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -3.2482913, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1017,10 +1017,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 722303369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.757019, y: 733.6753}
-  m_SizeDelta: {x: 1240.5, y: 1116.1038}
+  m_AnchorMin: {x: 0.045, y: 0.5}
+  m_AnchorMax: {x: 0.94000006, y: 0.9464657}
+  m_AnchoredPosition: {x: 6, y: -170.5}
+  m_SizeDelta: {x: 11.075195, y: 343.10376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1886612106
 GameObject:
