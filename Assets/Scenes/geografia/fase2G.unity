@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 172669070}
   - component: {fileID: 172669069}
   - component: {fileID: 172669068}
+  - component: {fileID: 172669071}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -201,7 +202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 172669069}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 172669071}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Derrota
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &172669069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +253,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172669066}
   m_CullTransparentMesh: 1
+--- !u!114 &172669071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172669066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &520005289
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,54 +652,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &966927736
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 966927738}
-  - component: {fileID: 966927737}
-  m_Layer: 0
-  m_Name: Txt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &966927737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966927736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 520005291}
-  mensagemCompleta: "O Meridiano de Greenwich atravessa qual desses pa\xEDses?"
-  velocidadeDigitacao: 0.05
-  som: {fileID: 0}
---- !u!4 &966927738
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966927736}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 604, y: 2124, z: -11.946588}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &997263865
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +664,7 @@ GameObject:
   - component: {fileID: 997263869}
   - component: {fileID: 997263868}
   - component: {fileID: 997263867}
+  - component: {fileID: 997263870}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -756,7 +735,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 997263868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 997263870}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Derrota
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &997263868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,6 +786,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997263865}
   m_CullTransparentMesh: 1
+--- !u!114 &997263870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997263865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &1183683462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1026,7 @@ GameObject:
   - component: {fileID: 1477016116}
   - component: {fileID: 1477016115}
   - component: {fileID: 1477016114}
+  - component: {fileID: 1477016117}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1092,7 +1097,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1477016115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1477016117}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: fase3G
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1477016115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1131,6 +1148,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477016112}
   m_CullTransparentMesh: 1
+--- !u!114 &1477016117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477016112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &1491947987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,6 +1724,7 @@ GameObject:
   - component: {fileID: 1748468867}
   - component: {fileID: 1748468866}
   - component: {fileID: 1748468865}
+  - component: {fileID: 1748468868}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1764,7 +1795,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1748468866}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1748468868}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: fase3G
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1748468866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1803,6 +1846,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748468863}
   m_CullTransparentMesh: 1
+--- !u!114 &1748468868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748468863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5091cd7466d6c49842970e5784b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &1778867630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,5 +2139,4 @@ SceneRoots:
   - {fileID: 766357009}
   - {fileID: 1183683465}
   - {fileID: 686739173}
-  - {fileID: 966927738}
   - {fileID: 1588458123}

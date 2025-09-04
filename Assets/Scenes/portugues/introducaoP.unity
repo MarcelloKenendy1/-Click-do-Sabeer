@@ -119,63 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &177776754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 177776756}
-  - component: {fileID: 177776755}
-  m_Layer: 0
-  m_Name: TXT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &177776755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 177776754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 1637389132}
-  mensagemCompleta: "A L\xEDngua Portuguesa \xE9 um dos principais patrim\xF4nios
-    culturais dos povos que a utilizam. Originada do latim vulgar, ela se desenvolveu
-    na Pen\xEDnsula Ib\xE9rica e, com as grandes navega\xE7\xF5es, espalhou-se por
-    diversos continentes. Hoje, \xE9 falada por mais de 260 milh\xF5es de pessoas
-    em pa\xEDses como Brasil, Portugal, Angola, Mo\xE7ambique, Cabo Verde, Guin\xE9-Bissau,
-    S\xE3o Tom\xE9 e Pr\xEDncipe e Timor-Leste, al\xE9m de comunidades espalhadas
-    pelo mundo.\n\nAl\xE9m de ser um meio de comunica\xE7\xE3o, o portugu\xEAs carrega
-    a hist\xF3ria, os costumes e a identidade dos seus falantes. Ele \xE9 uma l\xEDngua
-    rica em express\xF5es, varia\xE7\xF5es e sotaques, o que reflete a diversidade
-    cultural de cada regi\xE3o."
-  velocidadeDigitacao: 0.05
-  som: {fileID: 0}
---- !u!4 &177776756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 177776754}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 413.8255, y: 1879, z: -5.350648}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &237674957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,5 +1108,4 @@ SceneRoots:
   - {fileID: 660236380}
   - {fileID: 722303369}
   - {fileID: 237674960}
-  - {fileID: 177776756}
   - {fileID: 1423444081}

@@ -433,59 +433,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685225794}
   m_CullTransparentMesh: 1
---- !u!1 &845256574
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 845256576}
-  - component: {fileID: 845256575}
-  m_Layer: 0
-  m_Name: txt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &845256575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845256574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 2138096120}
-  mensagemCompleta: "A Geografia \xE9 a ci\xEAncia que estuda o espa\xE7o geogr\xE1fico
-    e as rela\xE7\xF5es entre o ser humano e o meio ambiente. Ela analisa elementos
-    naturais, como clima, relevo e vegeta\xE7\xE3o, e tamb\xE9m aspectos sociais
-    e econ\xF4micos, como popula\xE7\xE3o, urbaniza\xE7\xE3o e globaliza\xE7\xE3o.
-    Dessa forma, a Geografia ajuda a compreender o mundo em sua diversidade, mostrando
-    como as sociedades transformam e s\xE3o transformadas pelo espa\xE7o em que vivem."
-  velocidadeDigitacao: 0.05
-  som: {fileID: 0}
---- !u!4 &845256576
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845256574}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 608, y: 2034, z: -9.330932}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1068739622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,5 +1105,4 @@ SceneRoots:
   - {fileID: 616397352}
   - {fileID: 1480428297}
   - {fileID: 1304774744}
-  - {fileID: 845256576}
   - {fileID: 1397266287}

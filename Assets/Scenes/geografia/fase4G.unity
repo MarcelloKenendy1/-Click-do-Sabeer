@@ -1212,55 +1212,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   som: {fileID: 0}
---- !u!1 &966927736
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 966927738}
-  - component: {fileID: 966927737}
-  m_Layer: 0
-  m_Name: Txt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &966927737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966927736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 520005291}
-  mensagemCompleta: "O Monte Elbrus, ponto mais alto da Europa, est\xE1 localizado
-    em qual cadeia montanhosa?"
-  velocidadeDigitacao: 0.05
-  som: {fileID: 0}
---- !u!4 &966927738
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966927736}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1532.9883, y: 1596.415, z: -11.946588}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1000640277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,7 +1249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.54375, y: 0.046620853}
   m_AnchorMax: {x: 0.92875004, y: 0.143}
-  m_AnchoredPosition: {x: -3.7299957, y: -2.5}
+  m_AnchoredPosition: {x: -3.7299805, y: -2.5}
   m_SizeDelta: {x: 1.0238037, y: 13.864136}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000640279
@@ -1657,7 +1608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.17691, y: 18.48999}
+  m_AnchoredPosition: {x: 21.17688, y: 18.48999}
   m_SizeDelta: {x: 42.35382, y: 11.97998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491947989
@@ -2189,5 +2140,4 @@ SceneRoots:
   - {fileID: 766357009}
   - {fileID: 1183683465}
   - {fileID: 686739173}
-  - {fileID: 966927738}
   - {fileID: 716872661}
