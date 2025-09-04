@@ -549,60 +549,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643054666}
   m_CullTransparentMesh: 1
---- !u!1 &939301318
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 939301320}
-  - component: {fileID: 939301319}
-  m_Layer: 0
-  m_Name: Txt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &939301319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939301318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23573cce63f52a049a8f136c01f63404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 1689341087}
-  mensagemCompleta: "A Matem\xE1tica \xE9 uma ci\xEAncia fundamental que estuda n\xFAmeros,
-    formas, medidas, estruturas e rela\xE7\xF5es. Est\xE1 presente no dia a dia em
-    atividades simples, como contar, medir e calcular, e tamb\xE9m em \xE1reas mais
-    complexas, como tecnologia, engenharia e ci\xEAncias naturais. Al\xE9m de ser
-    uma ferramenta pr\xE1tica, a Matem\xE1tica desenvolve o racioc\xEDnio l\xF3gico
-    e a capacidade de resolver problemas, sendo essencial para o avan\xE7o do conhecimento
-    humano."
-  velocidadeDigitacao: 0.05
-  som: {fileID: 0}
---- !u!4 &939301320
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939301318}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 604.7676, y: 1746, z: -3.3320217}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1094230167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,7 +1111,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -76.16196, y: 0, z: -400.4525, w: -913.9795}
+  m_margin: {x: -3.7115784, y: 0, z: -6.723694, w: -4.521271}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1195,8 +1141,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.42484564}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -161.76001, y: 437.89}
-  m_SizeDelta: {x: -476.475, y: -876.9328}
+  m_AnchoredPosition: {x: -6.1889, y: -0.28833}
+  m_SizeDelta: {x: -12.373, y: -0.57666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1205,5 +1151,4 @@ SceneRoots:
   - {fileID: 1340137073}
   - {fileID: 1328294182}
   - {fileID: 585894930}
-  - {fileID: 939301320}
   - {fileID: 204130525}
