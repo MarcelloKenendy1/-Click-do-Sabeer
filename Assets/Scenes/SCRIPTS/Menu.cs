@@ -46,6 +46,48 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("fase1G");
     } 
+    public void IntroducaoING()
+    {
+        SceneManager.LoadScene("IntroducaoING");
+    } 
+    public void Ingles1()
+    {
+        SceneManager.LoadScene("Ingles1");
+    } public void fase1ING()
+    {
+        SceneManager.LoadScene("fase1ING");
+    } public void fase1ING2()
+    {
+        SceneManager.LoadScene("fase1ING2");
+    } 
+    public void fase1ING1()
+    {
+        SceneManager.LoadScene("fase1ING1");
+    }
+    public void fase1ING3()
+    {
+        SceneManager.LoadScene("fase1ING3");
+    } 
+    public void fase1ING4()
+    {
+        SceneManager.LoadScene("fase1ING4");
+    } public void fase1ING5()
+    {
+        SceneManager.LoadScene("fase1ING5");
+    } public void fase1ING6()
+    {
+        SceneManager.LoadScene("fase1ING6");
+    } 
+    public void fase1ING7()
+    {
+        SceneManager.LoadScene("fase1ING7");
+    } public void fase1ING8()
+    {
+        SceneManager.LoadScene("fase1ING8");
+    } public void fase1ING9()
+    {
+        SceneManager.LoadScene("fase1ING9");
+    } 
     public void fase2G()
     {
         SceneManager.LoadScene("fase2G");

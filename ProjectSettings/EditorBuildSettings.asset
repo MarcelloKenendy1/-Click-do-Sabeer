@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/Scenes/matematica/fase3M.unity
     guid: b4b75815caf7a7a44a9d2707ad0ac956
   - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING.unity"
+    guid: deaa92512dd63a74b97b2dcc7f06d389
+  - enabled: 1
     path: Assets/Scenes/matematica/fase4M.unity
     guid: 14b82f59bc5ac0143a0381c1c7e27b5a
   - enabled: 1
@@ -86,6 +89,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/geografia/IntroducaoG.unity
     guid: 98b8a9133a2b6f7428b495820923b01f
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING1.unity"
+    guid: c732c2ef6c793bf48883ea2b7fd9f78b
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING2.unity"
+    guid: ecbf94572b5682b42b385815214ec17b
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING3.unity"
+    guid: fb73eefbfefa98c4c9be15ababf8f5e1
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING4.unity"
+    guid: d9b0b81fdc60d0244b1b8d895af4cd43
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING5.unity"
+    guid: 8d890977404c0024a96fb5369b35eb48
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING6.unity"
+    guid: 46d50e2617ad4fb4a9a8a0b1e0b72fa7
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING8.unity"
+    guid: 03b0f2745c719d34abd3125149563c46
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING9.unity"
+    guid: 5e8608fc2100384418ceaa466756bb13
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/Ingles1.unity"
+    guid: 7643ab0bc7945eb45affc01b85d69a8f
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/IntroducaoING.unity"
+    guid: ae8f0950a39c4c5418aabf8697e492ec
+  - enabled: 1
+    path: "Assets/Scenes/Ingl\xEAs/fase1ING7.unity"
+    guid: 945a575106b13a049b4be153334e1631
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8fddfea7265ca43458576180d47992ec, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f5d875e5f80065c41bfc693fbb0bd34f, type: 2}
